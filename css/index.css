@@ -125,6 +125,10 @@ p {
     padding-bottom: 20px;
 }
 
+#text-container {
+    width: 400px;
+}
+
 /* -------------------MAIN SECTION------------------ */
 
 .main-section {
