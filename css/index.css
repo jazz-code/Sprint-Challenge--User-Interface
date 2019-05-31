@@ -69,27 +69,28 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    height: 80px;
+    height: auto;
     width: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .nav-links {
+    justify-content: space-between;
     width: 0 20px;
-    padding: 15px 40px;
+    padding: 25px 0 0 25px;
+    flex-wrap: nowrap;
 }
 
 .nav-links a {
-    justify-content: center;
-    padding: 15px 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px 5px 5px;
     text-decoration: none;
+    font-size: 14px;
     color: black;
 }
 
-.logo-container {
-
-    flex-wrap: nowrap;
-    padding: 10px 0 60px 0;
-}
 
 .logo {
     margin-right: auto;
